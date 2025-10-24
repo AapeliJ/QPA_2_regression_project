@@ -1,0 +1,54 @@
+{
+  "chart": {
+    "title": "Corruption Perceptions Index",
+    "subtitle": "Average score across 13 expert and business surveys on the extent of corruption in the public sector. The index ranges from 0 to 100 (least corrupt).",
+    "note": "",
+    "citation": "Transparency International (2024)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/ti-corruption-perception-index?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Burundi"
+    ]
+  },
+  "columns": {
+    "Corruption Perceptions Index": {
+      "titleShort": "Corruption Perceptions Index (CPI)",
+      "titleLong": "Corruption Perceptions Index (CPI)",
+      "descriptionShort": "A country’s score, from 0 (most corrupt) to 100 (least corrupt), that reflects the average of expert surveys on public sector corruption, including misuse of office and bribery.",
+      "descriptionKey": [
+        "The Corruption Perceptions Index (CPI) ranks countries and territories based on the perceived level of public sector corruption, as judged by experts and business leaders.",
+        "Depending on the country, it combines data up to 13 independent sources, including expert assessments and business surveys from trusted institutions.",
+        "Each source is converted to a scale from 0 to 100, where 0 means very corrupt and 100 means very clean.",
+        "A country’s CPI score is the simple average of the available sources for that year.",
+        "The method has stayed the same since 2012, so scores can be compared over time.",
+        "The CPI includes a 90% confidence interval (margin of error) to reflect differences between sources and possible inconsistencies.",
+        "The CPI does not measure corruption directly. It measures perceptions, because there are no fully objective national measures of corruption."
+      ],
+      "unit": "",
+      "timespan": "2012-2024",
+      "type": "Integer",
+      "owidVariableId": 1032554,
+      "shortName": "cpi_score",
+      "lastUpdated": "2025-05-13",
+      "nextUpdate": "2026-05-13",
+      "citationShort": "Transparency International (2024) – with minor processing by Our World in Data",
+      "citationLong": "Transparency International (2024) – with minor processing by Our World in Data. “Corruption Perceptions Index (CPI)” [dataset]. Transparency International, “Corruption Perceptions Index” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1032554.metadata.json"
+    },
+    "World regions according to OWID": {
+      "titleShort": "World regions according to OWID",
+      "titleLong": "World regions according to OWID",
+      "descriptionShort": "Regions defined by Our World in Data, which are used in OWID charts and maps.",
+      "unit": "",
+      "timespan": "2023-2023",
+      "type": "Continent",
+      "owidVariableId": 900801,
+      "shortName": "owid_region",
+      "lastUpdated": "2023-01-01",
+      "citationShort": "Our World in Data – processed by Our World in Data",
+      "citationLong": "Our World in Data – processed by Our World in Data. “World regions according to OWID” [dataset]. Our World in Data, “Regions” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/900801.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-10-12",
+  "activeFilters": {}
+}
